@@ -97,6 +97,8 @@ console.log(fruitsdata);
 fruitsdata.splice(3,1);
 console.log(fruitsdata);
 
+console.log(fruitsdata);
+
 
 
 
