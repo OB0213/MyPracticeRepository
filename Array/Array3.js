@@ -78,6 +78,27 @@ console.log(finalArray);
 let isData=myarraydata.includes("Omkar");
 console.log(isData);
 
+//slice() method return the sliced part of the array
+
+let myarraydatavalue=[1,2,3,4,5,6,7,8,9];
+let solution=myarraydatavalue.slice(2,5);
+console.log(solution);//it extracts from 2 till 4
+
+let solution1=myarraydatavalue.slice(3);
+console.log(solution1);
+
+//splice()
+let fruitsdata=["Apple","Mango","Banana","Grapes"];
+fruitsdata.splice(2,0,"Pomegranate");
+console.log(fruitsdata);
+fruitsdata.splice(3,1,"Watermelon");
+console.log(fruitsdata);
+
+fruitsdata.splice(3,1);
+console.log(fruitsdata);
+
+
+
 
 
 
